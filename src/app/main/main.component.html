@@ -1,0 +1,94 @@
+
+<div style="padding-top:20px"></div>
+<div class="container">
+
+<h1>Binance Chain Tools</h1>
+<h5>Tools for the Binance Chain ecosystem.</h5>
+<p>The CanYa Team will be building a suite of open-source tools that will enhance the capabilities of Binance Chain.
+  Some of these tools will be integrated into the CanYa Project as well as other decentralised applications.
+  The CanYa Team will be regularly updating this page with completed tools in the coming months.
+</p>
+
+<div class="card-deck mt-5">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header"><span><img src="../../assets/images/Multi-sender.png" width="auto" height="40px" alt="Binance Chain Multi-Sender"></span><span>  MULTI-SEND</span></div>
+          <div class="card-body">
+            <h5 class="card-title">Multi-Sender Tool</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Easily send transactions to multiple addresses.</h6>
+            <p class="card-text text-muted">
+              This tool uses the Binance Chain batched transaction feature to send assets to multiple addresses easily.
+              Users can manually add addresses, memos and amounts, or alternatively upload from a CSV file to send large amounts of transactions.
+              Users pay the Batch Transaction fee.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-header"><span><img src="../../assets/images/Multi-sig.png" width="auto" height="40px" alt="Binance Chain Multi-Sig"></span><span>  MULTI-SIG</span></div>
+          <div class="card-body">
+            <h5 class="card-title">Multi-Signature Tool</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Easily create and send from Binance Chain multi-signature accounts.</h6>
+            <p class="card-text text-muted">
+              This tool uses Binance Chain multi-key store to persist state about multi-signature wallets on-chain and is non-interactive since signers don’t need to be online at the same time.
+              Users first set up the wallet by specifying the threshold and maximum number of signatures (such as a 2 of 3 wallet), and then sign in turn to send transactions from the wallet.
+            </p>
+          </div>
+        </div>
+</div>
+
+
+<div class="card-deck">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header"><span><img src="../../assets/images/Escrow.png" width="auto" height="40px" alt="Binance Chain Escrow"></span><span>  ESCROW</span></div>
+          <div class="card-body">
+            <h5 class="card-title">Escrow Tool</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Easily escrow funds between two parties.</h6>
+            <p class="card-text text-muted">
+              This tool is an adapted multi-signature module that places restrictions on how funds can be spent between parties.
+              Users set up details about how the payment should be made, and once both parties are happy, funds are released to the correct recipient.
+              The third-party can step in to process disputes and charges a small escrow fee.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-header"><span><img src="../../assets/images/Hedged-Escrow.png" width="auto" height="40px" alt="Binance Chain Hedged Escrow"></span><span>  HEDGED ESCROW</span></div>
+          <div class="card-body">
+            <h5 class="card-title">Hedged Escrow</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Easily escrow funds between parties that is hedged to the price of an external asset.</h6>
+            <p class="card-text text-muted">
+              This tool is an adapted escrow module that allows a float to be maintained, and an external price reference to be added (such as paying in BNB priced in USD).
+              Users specify payment amounts in the price of the external asset such that price volatility risk is removed whilst the asset is escrowed.
+              The float in the escrow underwrites payments and as such is very useful for marketplaces.
+            </p>
+          </div>
+        </div>
+</div>
+
+<div class="card-deck mb-5">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header"><span><img src="../../assets/images/DAO.png" width="auto" height="40px" alt="Binance Chain DAO"></span><span>  DAO</span></div>
+          <div class="card-body">
+            <h5 class="card-title">DAO Tool</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Easily set up staking, voting and election dApps.</h6>
+            <p class="card-text text-muted">
+              This tool allows developers to add staking, election and voting logic to their dApps.
+              Users can stake assets on their wallets with a designated un-bonding period.
+              They can then create elections that require minimum stake participation with designated outcomes.
+              Votes can be tallied uses 1p1v or more elaborate schemes such as quadratic voting to determine an outcome.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <div class="card-header"><span><img src="../../assets/images/CLP.png" width="auto" height="40px" alt="Binance Chain Liquidity Pools"></span><span>  CONTINUOUS LIQUIDITY POOLS</span></div>
+          <div class="card-body">
+            <h5 class="card-title">Liquidity Pools</h5>
+            <h6 class="card-subtitle mb-2 text-muted">On-chain continuous liquidity pools.</h6>
+            <p class="card-text text-muted">
+              This module allows users to stake assets and BNB in on-chain pools, and then perform trustless swaps across pools.
+              The module features always-on liquidity and fair market-based prices that are resistant to manipulation.
+              Stakers earn fees when staking assets, and users can instantly swap assets in a single transaction.
+            </p>
+          </div>
+        </div>
+  </div>
+
+</div>
